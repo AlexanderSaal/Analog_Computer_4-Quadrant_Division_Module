@@ -4191,7 +4191,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aae36bf5-f972-4e2a-9c56-8de8df826484")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 45.72 69.85 0)
 			(effects
 				(font
@@ -4294,7 +4294,7 @@
 		(instances
 			(project "Analog_Computer_Division_Module"
 				(path "/0a59a61b-9959-4bec-abb4-660a54f0221a/26c40e8a-deac-4fc8-906c-0c0758aeae95"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)

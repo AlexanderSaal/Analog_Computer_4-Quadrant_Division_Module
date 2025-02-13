@@ -3,9 +3,15 @@
 
 # Do not ignore my schematic folder for the images
 !schematic/
+!BOM/
 !Analog_Computer_Division_Module/
 !Middleplate/
 !Frontplate/
+
+# ignore my notes and BOM files for now
+.~lock*.ods#
+#*.csv
+*.ods
 
 # generic temporary files
 *.000

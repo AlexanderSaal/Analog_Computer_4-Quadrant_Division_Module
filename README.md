@@ -7,7 +7,6 @@ This repository provides a 4-Quadrant Division Module for analog computing appli
 ![Front view of the Division Module](Frontplate/schematic/Analog_Computer_Division_Frontplate.png "Front view of the Division Module")
 
 
-
 ## Module Schematic
 
 The schematic is divided into multiple sections for the ease of understanding. All functional modules like power management, division and error-indication have their own page in the circuit diagram.
@@ -24,8 +23,54 @@ The Error Indicator for each individual Output takes a lot of extra space and co
 
 ![Schematic of the Error Indicator](Analog_Computer_Division_Module/schematic/schematic-4.png "Circuit implementation of the Error Indicator")
 
-<ins> Sources: </ins>\
+<ins> References: </ins>\
 The circuit is mostly based on the [THAT](https://the-analog-thing.org/) of [Anabrid GmbH](https://anabrid.com/), which has its circuit diagram openly available at their github repository [Anabrid](https://github.com/anabrid/the-analog-thing/tree/main). Also a special mention goes to Michael Koch who has put together a large collection of analog computing circuits in his [book on the THAT Analog Computer](http://www.astro-electronic.de/THAT_Analog_Computer_Book.pdf).
+
+
+## BOM
+
+**<ins>Main Module:</ins>** 
+
+|Reference                                                   |Value              |Footprint                      |QUANTITY|
+|------------------------------------------------------------|-------------------|-------------------------------|--------|
+|C1,C2                                                       |10u                |1206 / 3216Metric              |2       |
+|C3-C27                                                      |100n               |1206 / 3216Metric              |25      |
+|D1                                                          |12V_GREEN          |1206 / 3216Metric              |1       |
+|D2                                                          |-12V_RED           |1206 / 3216Metric              |1       |
+|IC1,IC2                                                     |AD633              |SOIC-8                         |2       |
+|J1                                                          |Conn_01x14_Pin     |PinHeader_1x14_P2.54mm_Vertical|1       |
+|J2                                                          |Conn_02x05_Odd_Even|PinHeader_2x05_P2.54mm_Vertical|1       |
+|Q1                                                          |PMV250EPEA         |SOT-23                         |1       |
+|Q2                                                          |PMV450ENEA         |SOT-23                         |1       |
+|R1,R2                                                       |5k6                |1206 / 3216Metric              |2       |
+|R3,R4,R8-R10,R12,R14,R15,R19,R39,R40,R44-R46,R48,R50,R51,R55|100k (0.1p)        |1206 / 3216Metric              |18      |
+|R5,R13,R41,R49                                              |50k                |1206 / 3216Metric              |4       |
+|R6,R16,R25,R28,R42,R52                                      |510k               |1206 / 3216Metric              |6       |
+|R7,R17,R43,R53                                              |470                |1206 / 3216Metric              |4       |
+|R18,R54                                                     |25k (0.1p)         |1206 / 3216Metric              |2       |
+|R20,R56                                                     |3k9                |1206 / 3216Metric              |2       |
+|R21,R24,R27,R32,R33,R35-R37                                 |100k               |1206 / 3216Metric              |8       |
+|R22,R26,R31,R34                                             |10k                |1206 / 3216Metric              |4       |
+|R23,R29                                                     |15k                |1206 / 3216Metric              |2       |
+|R30,R38                                                     |4k                 |1206 / 3216Metric              |2       |
+|U1,U2                                                       |VCAN16A2           |SOT23-3                        |2       |
+|U3,U6,U11,U14                                               |DG419BDY-E3        |SOIC-8                         |4       |
+|U4,U5,U9,U12,U13                                            |TLE2074IDWR        |SOIC-14                        |5       |
+|U7                                                          |LM339DR            |SOIC-14                        |1       |
+|U8                                                          |CD40106BM96        |SOIC-14                        |1       |
+|U10                                                         |LM4040, 10V        |SOT-23                         |1       |
+
+
+**<ins>Middleplate:</ins>**
+
+|Reference                                                   |Value              |Footprint                      |QUANTITY|
+|------------------------------------------------------------|-------------------|-------------------------------|--------|
+|D1                                                          |IND_X1/Y1          |LED_D3.0mm_FlatTop             |1       |
+|D2                                                          |ERROR_1            |LED_D3.0mm_FlatTop             |1       |
+|D3                                                          |IND_X2/Y2          |LED_D3.0mm_FlatTop             |1       |
+|D4                                                          |ERROR_2            |LED_D3.0mm_FlatTop             |1       |
+|J1                                                          |Conn_01x14_Socket  |PinSocket_1x14_P2.54mm_Vertical|1       |
+|U1-U3                                                       |VCAN16A2-03S-E3-08 |SOT23-3                        |3       |
 
 
 ## List of special Components:

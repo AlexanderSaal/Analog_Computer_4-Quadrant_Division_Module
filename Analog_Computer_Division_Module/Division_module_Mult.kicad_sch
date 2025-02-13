@@ -5049,7 +5049,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k (0.1p)"
 			(at 35.56 99.06 90)
 			(effects
 				(font
@@ -5183,7 +5183,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (0.1p)"
 			(at 49.53 25.4 90)
 			(effects
 				(font
@@ -5852,14 +5852,14 @@
 		(dnp no)
 		(uuid "1f308dd7-c07b-473e-b1ef-6cb75d37ef00")
 		(property "Reference" "R50"
-			(at 45.72 110.49 90)
+			(at 38.1 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k (0.1p)"
 			(at 43.18 110.49 90)
 			(effects
 				(font
@@ -6061,7 +6061,7 @@
 				)
 			)
 		)
-		(property "Value" "25k"
+		(property "Value" "25k (0.1p)"
 			(at 35.56 127 90)
 			(effects
 				(font
@@ -6468,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k (0.1p)"
 			(at 48.26 110.49 90)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (0.1p)"
 			(at 125.73 105.41 90)
 			(effects
 				(font
@@ -6741,7 +6741,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (0.1p)"
 			(at 33.02 39.37 90)
 			(effects
 				(font
@@ -7240,7 +7240,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (0.1p)"
 			(at 35.56 137.16 90)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "100k (0.1p)"
 			(at 142.24 92.71 90)
 			(effects
 				(font
@@ -9412,7 +9412,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k (0.1p)"
 			(at 35.56 106.68 90)
 			(effects
 				(font
